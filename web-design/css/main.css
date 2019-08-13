@@ -1,0 +1,122 @@
+body {
+  background-color: #ffffff;
+  color: #4e4e4c;
+  font-size: 22px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+.upper-text {
+  padding-top: 6vw;
+  padding-bottom: 6vw;
+  margin-left: 17vw;
+  margin-right: 17vw;
+}
+
+.main-content {
+  color: #ffffff;
+  font-size: 22px;
+  padding-bottom: 6rem;
+  padding-top: 2rem;
+  background: #6887f0;
+  background: -webkit-gradient(linear, left top, right top, from(#6887f0), to(#9bb3fe));
+  background: linear-gradient(to right, #6887f0, #9bb3fe);
+}
+
+.main-content .img {
+  position: absolute;
+  top: -5vw;
+  left: 20%;
+  width: 100%;
+}
+
+.main-content .placeholder {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.15), 0 6px 20px 0 rgba(0, 0, 0, 0.15);
+}
+
+.main-content .btn {
+  font-size: 19px;
+  font-weight: 400;
+  color: #6887f0;
+  border-radius: 28px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.main-content .btn:hover {
+  color: #ffffff;
+  background-color: #738598;
+}
+
+.main-text {
+  padding-right: 3rem;
+}
+
+.main-text h1 {
+  font-size: 30px;
+  font-weight: 400;
+  padding-top: 10%;
+  padding-bottom: 4%;
+}
+
+.main-text p {
+  padding-bottom: 4%;
+}
+
+.under-text {
+  padding-top: 9vw;
+  padding-bottom: 6vw;
+  margin-left: 17vw;
+  margin-right: 17vw;
+}
+
+@media (max-width: 823px) {
+  body {
+    text-align: center;
+    font-size: 22px;
+  }
+  .upper-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .main-content {
+    background: #6887f0;
+    background: -webkit-gradient(linear, left top, left bottom, from(#6887f0), to(#9bb3fe));
+    background: linear-gradient(to bottom, #6887f0, #9bb3fe);
+  }
+  .main-content h1 {
+    font-size: 35px;
+  }
+  .main-content .btn {
+    font-size: 22px;
+    font-weight: 400;
+    border-radius: 40px;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+  }
+  .main-text {
+    padding-bottom: 5rem;
+    padding-left: 8vw;
+    padding-right: 8vw;
+    font-size: 22px;
+  }
+  #placeholder-container {
+    position: relative;
+    left: 0;
+    top: 0;
+  }
+  .placeholder {
+    width: 65vw;
+  }
+  .under-text {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/*# sourceMappingURL=main.css.map */
